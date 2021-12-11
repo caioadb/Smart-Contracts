@@ -122,4 +122,8 @@ contract Auction{
 		bids[recipient] = 0;
 		recipient.transfer(value);
 	}
+
+	function destroyContract (address payable _to) public onlyOwner() {
+		selfdestruct(_to);
+	}
 }
