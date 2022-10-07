@@ -1,5 +1,0 @@
-Contribute so we pass receive() require()
-await contract.contribute.sendTransaction({ from: player, value: toWei('0.0009')}) 
-Send funds through receive()
-await sendTransaction({from:player, to:contract.address, value:toWei("0.00001") }) 
-
