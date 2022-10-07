@@ -1,4 +1,6 @@
-Deploy the following contract to the same network
+Change the value of the king address below to your contract instance
+
+Deploy the contract to the same network
 ```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.6.0;
