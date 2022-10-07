@@ -13,6 +13,6 @@ contract Exploit {
     }
 }
 ```
-send some eth to it;
+send it some eth 
 
 call exploit()
