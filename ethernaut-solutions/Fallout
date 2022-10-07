@@ -1,2 +1,0 @@
-call Fal1out()
-await contract.Fal1out() 
