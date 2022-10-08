@@ -9,3 +9,9 @@ Send funds through receive()
 ```javascript
 await sendTransaction({from:player, to:contract.address, value:toWei("0.00001") })
 ```
+
+Call withdraw()
+
+```javascript
+await contract.withdraw()
+```
