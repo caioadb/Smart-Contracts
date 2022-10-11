@@ -22,4 +22,4 @@ contract Exploit {
     }
 }
 ```
-call exploit(), sending 0.001 ether
+call exploit(), sending 0.001 ether ( 1 finney)
