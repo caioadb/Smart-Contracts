@@ -24,4 +24,4 @@ contract Exploit {
 }
 ```
 - Call exploit()
-- Call setTime() on your ocntract instance, with any value
+- Call setTime() on your contract instance, with any value
