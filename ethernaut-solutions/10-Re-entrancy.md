@@ -1,7 +1,7 @@
 Deploy the following contract to the same network
 ```solidity
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.6.0;
+pragma solidity ^0.6.8;
 
 interface Reentrance {
     function donate(address) external payable;
