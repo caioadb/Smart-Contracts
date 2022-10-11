@@ -24,4 +24,4 @@ contract Exploit {
 }
 ```
 - Call exploit()
-- Call setTime() on your contract instance, with any value
+- Call setFirstTime() on your contract instance, with any value
