@@ -11,8 +11,6 @@ interface IForta {
 }
 
 contract Exploit {
-
-    IForta public forta;
     address cryptoVault;
 
     constructor(address _cryptoVault) public {
@@ -25,7 +23,7 @@ contract Exploit {
             origSender := calldataload(0xa8)
         }
         if (origSender == cryptoVault){
-            forta.raiseAlert(user);
+            IForta(msg.sender).raiseAlert(user);
         }
     }
 }
