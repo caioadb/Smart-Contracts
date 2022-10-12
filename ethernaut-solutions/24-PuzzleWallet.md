@@ -37,4 +37,5 @@ contract Exploit {
     receive() external payable {}
 }
 ```
-Call exploit() sending your contract instance
+- Send 0.001 ether to your Exploit contract
+- Call exploit() sending your contract instance
