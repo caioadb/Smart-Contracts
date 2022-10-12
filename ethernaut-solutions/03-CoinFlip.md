@@ -19,6 +19,7 @@ contract Exploit {
 
         CoinFlip(_who).flip(side);
     }
+}
 ```
 
 call exploit() 10 times, making sure to wait enough for a new block
